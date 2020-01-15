@@ -1,2 +1,2 @@
-# talks
+# Talks
 repository storing the talks I gave
