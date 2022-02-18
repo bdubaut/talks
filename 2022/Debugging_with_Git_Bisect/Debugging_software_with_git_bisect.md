@@ -1,11 +1,9 @@
 [.autoscale: true]
-[.slide-transition: true]
 
 # Debugging software with `git bisect`
 
 ---
-
-[.slidenumbers: true]
+[.slide-transition: fade(0.3)]
 
 ```
 git bisect start [--term-{new,bad}=<term> --term-{old,good}=<term>]
@@ -23,24 +21,43 @@ git bisect help
 ```
 
 ---
+[.slide-transition: fade(0.3)]
 
-[.slidenumbers: true]
-
-> `git bisect` uses a binary search algorithm to find which commit in your project’s history introduced a bug.
-
----
-
-[.slidenumbers: true]
-
-```bash
-$> git bisect start
-$> git bisect bad # Current version is bad
-$> git bisect good # Current version is bad
-
-```
+### `git bisect` uses a binary search algorithm to find which commit in your project’s history introduced a bug.
 
 ---
+[.slide-transition: fade(0.3)]
+[.build-lists: true]
 
-[.slidenumbers: true]
+- `$> git bisect start`
+- `$> git bisect bad # Current version is bad`
+- `$> git bisect good # Current version is good`
+
+---
+[.slide-transition: fade(0.3)]
 
 Let's take it for a spin!
+
+---
+[.slide-transition: fade(0.3)]
+[.build-lists: true]
+
+## What we're going to do:
+
+- 👀 Check the version history
+- 🧙 start a `git bisect` section & find the bug
+- 🎉 Fix the bug
+
+---
+[.slide-transition: fade(0.3)]
+[.build-lists: true]
+
+## In Summary
+
+- **`git bisect`** allows you to proceed by elimination to pinpoint the version that introduced an issue
+- It works very well when your codebase has **small**, **understandable** commit messages
+
+---
+[.slide-transition: fade(0.3)]
+
+# Thanks!
