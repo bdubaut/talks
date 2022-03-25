@@ -63,6 +63,12 @@ Let's take it for a spin!
 ---
 
 [.slide-transition: fade(0.3)]
+
+## https://github.com/bdubaut/git-bisect-talk
+
+---
+
+[.slide-transition: fade(0.3)]
 [.build-lists: true]
 
 ## In Summary
