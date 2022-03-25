@@ -3,6 +3,13 @@
 # Debugging software with `git bisect`
 
 ---
+
+[.slide-transition: fade(0.3)]
+
+![inline](debugging.png)
+
+---
+
 [.slide-transition: fade(0.3)]
 
 ```
@@ -21,24 +28,29 @@ git bisect help
 ```
 
 ---
+
 [.slide-transition: fade(0.3)]
 
-### `git bisect` uses a binary search algorithm to find which commit in your project’s history introduced a bug.
+### `git bisect` helps you find which commit in your project’s history introduced a bug.
 
 ---
+
 [.slide-transition: fade(0.3)]
 [.build-lists: true]
 
 - `$> git bisect start`
 - `$> git bisect bad # Current version is bad`
 - `$> git bisect good # Current version is good`
+- `$> git bisect reset # Get back to the latest working state.`
 
 ---
+
 [.slide-transition: fade(0.3)]
 
 Let's take it for a spin!
 
 ---
+
 [.slide-transition: fade(0.3)]
 [.build-lists: true]
 
@@ -49,6 +61,7 @@ Let's take it for a spin!
 - 🎉 Fix the bug
 
 ---
+
 [.slide-transition: fade(0.3)]
 [.build-lists: true]
 
@@ -58,6 +71,7 @@ Let's take it for a spin!
 - It works very well when your codebase has **small**, **understandable** commit messages
 
 ---
+
 [.slide-transition: fade(0.3)]
 
 # Thanks!
